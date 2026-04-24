@@ -1,10 +1,10 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Siddharth Garg — AI/ML Developer",
+  author: "Siddharth Garg",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Software Engineer based in Seattle, USA. I specialize in AI/ML, backend development, and cloud infrastructure.",
   lang: "en",
   siteLogo: "/alejandro-small.jpg",
   navLinks: [
@@ -13,11 +13,8 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://linkedin.com/in/siddharthgarg26" },
+    { text: "Github", href: "https://github.com/sgarg26" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,50 +22,54 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Siddharth Garg",
+    specialty: "AI/ML Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+      "Software Engineer based in Seattle, USA. I specialize in AI/ML, backend development, and cloud infrastructure.",
     email: "example@email.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "T-Mobile",
+      position: "Software Engineering Intern",
+      startDate: "May 2025",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Develop agent orchestration pipelines using LangGraph and CrewAI to automate a spam filtering system.",
+        "Design Model Context Protocol (MCP) servers to expose structured tools for PostgreSQL and Apache Cassandra, which are used as data sources.",
+        "Use Kubernetes to deploy and manage the application.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Nileflo AI Solutions",
+      position: "AI/ML Developer",
+      startDate: "November 2024",
+      endDate: "Present",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Developed and deployed a real-time Azure API-based NLP application to record and summarize patient-doctor conversations, enabling healthcare providers to efficiently review and understand patient requirements.",
+        "Created an RAG-based chatbot using Cosmos DB and Python, allowing doctors to query AI about patient information securely and contextually.",
+        "Integrated agentic AI into the application, enabling medical professionals to delegate and streamline administrative tasks using requests in natural language.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "SciTech Robotics",
+      position: "Lead Developer",
+      startDate: "January 2024",
+      endDate: "January 2025",
+      summary: [
+        "Served as the Programming Team Officer for the Vex U robotics team, overseeing software development and implementation for competition tasks.",
+        "Trained YOLOv11 on custom datasets in Python, achieving 92% confidence in detecting scoring objects on the field.",
+        "Programmed microcontrollers and depth cameras in C++ and Python for depth perception and V-SLAM tasks.",
+      ]
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "FastRTC-Kroko",
+      summary: "Developed an extension for the open-source gradio-app/fastrtc library to integrate Kroko ASR, enabling real-time speech-to-text transcription using the Kroko model within interactive audio streaming pipelines",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "https://github.com/sgarg26/fastrtc-kroko",
+      image: "/fastrtc-kroko.jpg",
     },
     {
       name: "Shopp App",
@@ -87,11 +88,9 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+I’m Siddharth Garg, a software engineer passionate about artificial intelligence and building practical tech that makes a difference. My main interests are in AI, robotics, machine learning, and backend development. I love experimenting with the open-source AI models, integrating them into real-world systems, and automating workflows with Python and Rust. When I’m not coding, I’m exploring sci-fi worlds or checking out the latest in tech.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/siddharth-big.jpg",
   },
 };
 
